@@ -23,7 +23,7 @@ def patch_pod_file(path, old_code, new_code)
 end
 
 def fix_unused_yoga_headers
-  filepath = 'Pods/Target Support Files/yoga/yoga-umbrella.h'
+  filepath = 'Pods/Target Support Files/ReactYoga/ReactYoga-umbrella.h'
   # This only exists when using CocoaPods + Frameworks
   return unless File.exists?(filepath)
 
